@@ -4,6 +4,8 @@ apply plugin: 'eclipse'
 version = '1.0'
 group = 'openeye'
 
+sourceCompatibility = '1.6'
+
 repositories {
     mavenCentral()
     jcenter()
