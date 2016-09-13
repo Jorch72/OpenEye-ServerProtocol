@@ -19,3 +19,7 @@ dependencies {
 jar {
     archiveName "OpenEye-protocol-${version}.jar"
 }
+
+task wrapper (type: Wrapper) {
+    gradleVersion = "2.12"
+}
