@@ -1,12 +1,10 @@
 package openeye.protocol.reports;
 
-import java.util.Collection;
-import java.util.List;
-
-import openeye.protocol.Artifact;
-
 import com.google.common.collect.ImmutableList;
 import com.google.gson.annotations.SerializedName;
+import java.util.Collection;
+import java.util.List;
+import openeye.protocol.Artifact;
 
 /* I'm marking all fields with serializable, just to prevent screwups. Yeah, I know about FieldNamingPolicy */
 public class ReportFileInfo implements IReport {

@@ -1,9 +1,8 @@
 package openeye.protocol.reports;
 
+import com.google.gson.annotations.SerializedName;
 import java.util.Collection;
 import java.util.List;
-
-import com.google.gson.annotations.SerializedName;
 
 public class ReportCrash extends ReportEnvironment {
 	public static final String TYPE = "crashlog";

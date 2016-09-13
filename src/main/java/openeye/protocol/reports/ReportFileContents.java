@@ -1,8 +1,7 @@
 package openeye.protocol.reports;
 
-import java.util.List;
-
 import com.google.gson.annotations.SerializedName;
+import java.util.List;
 
 public class ReportFileContents implements IReport {
 	public static final String TYPE = "file_contents";

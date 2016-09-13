@@ -1,13 +1,11 @@
 package openeye.protocol.reports;
 
-import java.util.List;
-import java.util.Set;
-
-import openeye.protocol.FileSignature;
-
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;
 import com.google.gson.annotations.SerializedName;
+import java.util.List;
+import java.util.Set;
+import openeye.protocol.FileSignature;
 
 public class ReportAnalytics extends ReportEnvironment {
 	public static final String TYPE = "analytics";

@@ -1,10 +1,9 @@
 package openeye.protocol.reports;
 
+import com.google.gson.annotations.SerializedName;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
-import com.google.gson.annotations.SerializedName;
 
 public abstract class ReportEnvironment implements IReport {
 
