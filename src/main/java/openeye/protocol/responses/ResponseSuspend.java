@@ -10,6 +10,9 @@ public class ResponseSuspend implements IResponse {
 		return TYPE;
 	}
 
+	/**
+	 * Unit: seconds
+	 */
 	@SerializedName("duration")
 	public int duration;
 
